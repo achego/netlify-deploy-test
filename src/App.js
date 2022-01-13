@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      hinnnnnnnnnnnnnnnnnnnnknmmxzxbzx
+      hello, this is a perfect site
     </div>
   );
 }
