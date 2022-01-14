@@ -1,7 +1,9 @@
+import About from "./Screens/About/About";
+
 function App() {
   return (
     <div>
-      hinnnnnnnnnnnnnnnnnnnnknmmxzxbzx
+      <About />
     </div>
   );
 }
