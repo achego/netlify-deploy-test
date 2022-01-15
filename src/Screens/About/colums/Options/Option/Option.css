@@ -48,3 +48,24 @@
     }
     
 }
+
+@media screen and (max-width: 767px) {
+
+    .Option {
+        height: 4rem;
+        padding: 1rem;
+        transition: height 1s 0.3s, color 0.3s 1s, background-color 0.3s 1s;
+    }
+
+    .Option .details h2 {
+        font-size: 0.9rem;
+    }
+
+    .Option .desc {
+        font-size: 0.8rem;
+    }
+
+    .showMore {
+        height: 8.2rem;
+    }
+}

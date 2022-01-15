@@ -47,3 +47,26 @@
     }
     
 }
+
+@media screen and (max-width: 767px) {
+    .Virtual .text {
+        padding: 1.5rem;  
+       margin-bottom: 1.5rem; 
+    }
+
+    .Virtual .image {
+        height: 300px;
+        width: 100%;
+    }
+
+    .Virtual .container {
+        border: 4px solid #9046FE; 
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .Virtual .image {
+        height: 260px;
+    }
+    
+}

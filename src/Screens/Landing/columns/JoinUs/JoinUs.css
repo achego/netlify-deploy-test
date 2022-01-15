@@ -1,0 +1,27 @@
+.JoinUs {
+    padding-top: 5.82rem;
+    padding-bottom: 3.32rem;
+}
+
+.JoinUs-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 1.7rem 0;
+}
+.JoinUs-container> h3{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.JoinUs-timer {
+    background-color: white;
+    color: grey;
+    display: flex;
+    padding: 10px 28px 50px;
+    justify-content: space-evenly;
+}
+.JoinUs-timer h3{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}

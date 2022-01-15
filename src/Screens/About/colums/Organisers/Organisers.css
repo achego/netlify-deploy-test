@@ -9,7 +9,7 @@
 .Organisers .organiser {
     padding: 1.7rem 0;
     display: grid;
-    grid-template-columns: repeat(4, 10rem);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     justify-items: center;
     row-gap: 4rem;
@@ -19,6 +19,11 @@
     .Organisers .organiser {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 2rem;
-    }
-    
+    }  
+}
+
+@media screen and (max-width: 479px) {
+    .Organisers .organiser {
+        grid-template-columns: repeat(1, 1fr);
+    }   
 }

@@ -1,0 +1,64 @@
+.DiviCon {
+    padding: 3rem 0;
+    text-transform: capitalize;
+}
+
+.DiviCon-title {
+    padding: 1.7rem 0;
+    color: #FFF022;
+}
+
+.DiviCon-light-text {
+    color: white;
+    font-weight: 100;
+    padding: 0.8rem 0;
+}
+
+.DiviCon-reg {
+    padding: 1.7rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.7rem;
+}
+
+.DiviCon-reg-date {
+    height: 18.2rem;
+    background-color: #FFF022;
+    padding: 100px 40px 40px;
+    color: black;
+    margin-bottom: 1.7rem;
+}
+
+.DiviCon-reg-date span {
+    display: block;
+}
+
+.DiviCon-earlybird {
+    z-index: 99;
+    border: 7px solid #6700FF;
+    padding: 240px 60px 120px;
+    position: relative;
+}
+.DiviCon-earlybird h4 {
+    padding-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+
+.DiviCon-earlybird-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #6700FF;
+    font-size: 4rem;
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s;
+}
+
+.DiviCon-earlybird-button:hover {
+    width: 7.6rem;
+    cursor: pointer;
+}

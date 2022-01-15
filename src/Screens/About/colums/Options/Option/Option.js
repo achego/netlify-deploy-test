@@ -11,17 +11,15 @@ const Option = (props) => {
 
     return (
         <div 
-            className={['Option', props.active?'showMore':null].join(' ')}
+            className={['Option', props.active?'showMore':null, props.className?props.className:null].join(' ')}
             onClick={() => props.setActive(props.id)}
             style={{
-                border: '7px solid ' + color,
                 backgroundColor: props.active?color:'transparent'
             }}>
             <div className={'details'}>
                 <h2 
                     className={'bold_text'}
                     style={{
-                        color: color
                     }}>{props.title}</h2>
                 <div style={{
                     opacity:props.active?'0':'1',

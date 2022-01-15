@@ -85,3 +85,17 @@
     }
     
 }
+
+@media screen and (max-width: 767px) {
+    .Register .button h2{
+        font-size: 2.1rem;
+        padding: 0.5rem 1.5rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .Register .form h3 {
+        font-size: 1rem;
+    }
+    
+}

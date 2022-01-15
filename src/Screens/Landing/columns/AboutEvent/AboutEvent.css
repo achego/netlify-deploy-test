@@ -1,0 +1,15 @@
+.AboutEvent {
+    padding: 3.37rem 0;
+}
+
+.AboutEvent h2 {
+    padding-top: 1.7rem;
+    padding-bottom: 0.8rem;
+    margin-left: 50%;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.AboutEvent p {
+    padding: 1.7rem 0;
+}

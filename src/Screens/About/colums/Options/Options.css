@@ -1,3 +1,13 @@
 .Options {
     padding: 3.4rem 0;
 }
+
+.Options .opti {
+    border: 7px solid #FF6FF0;
+}
+
+@media screen and (max-width: 479px) {
+    .Options .opti {
+        border: 3px solid #FF6FF0;
+    }
+}

@@ -14,6 +14,7 @@ const Options = (props) => {
 
     const options = props.data.map(opti => {
     return <Option 
+        className='opti'
         key={opti.id}
         id={opti.id}
         title={opti.title}

@@ -33,3 +33,10 @@
     }
     
 }
+@media screen and (max-width: 479px) {
+    .Footer >div p {
+        text-align: center;
+        font-size: 0.75rem;
+    }
+    
+}

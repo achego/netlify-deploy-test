@@ -92,6 +92,10 @@ body {
 }
 
 
+
+/* Media Querries */
+
+
 @media screen and (max-width: 980px) {
   .h1 {
     font-size: 3.5rem;
@@ -126,5 +130,29 @@ body {
 
   .p {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .h2 {
+    font-size: 1.7rem;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  .h4 {
+    font-size: 0.85rem;
+    line-height: 1.6rem;
+  }
+
+  .p {
+    font-size: 0.85rem;
+    line-height: 1.6;
   }
 }
